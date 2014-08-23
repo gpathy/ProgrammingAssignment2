@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
 minv <- NULL
 set <- function(y){
   x <<- y
-  m <<- NULL
+  minv <<- NULL
 }
 get <- function() x
 setinv <- function(solve) minv <<-solve
